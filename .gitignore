@@ -1,0 +1,29 @@
+# 忽略所有文件夹里的输出文件
+**/Objects/
+**/Listings/
+**/Debug/
+**/Release/
+**/bin/
+**/obj/
+
+# 忽略所有匹配这些后缀的文件
+*.o
+*.d
+*.crf
+*.htm
+*.lnp
+*.map
+*.axf
+*.elf
+*.hex
+*.bin
+*.dep
+*.bak
+*.lst
+*.txt
+*.uvgui.*
+*.uvguix.*
+
+# 忽略本地设置
+.vscode/
+.mxproject
